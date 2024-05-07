@@ -12,7 +12,7 @@ elif score >= 80 and score < 90:
 elif score >= 70 and score < 80:
     print("C")
 # A score of 60 to 69 is a "D".
-elif score >= 60 and score is  70:
+elif score >= 60 and score is < 70:
     print("D")
 # A score below 60 is an "F".
 else 

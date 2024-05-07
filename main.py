@@ -29,7 +29,24 @@
 # print("the orice of the is " + str(price))
 # # # getting input from the user
 
-name = input("what is your name? ")
-age = input("what is your age? ")
-occupation = input("what is your occupation? ")
-print("hello " + name + " you are " + age + " years old and you are a " + occupation)
+
+name = input("Enter your name:")
+while name == "":
+    print("You did not enter your name")
+    name= input("enter your name")
+
+    age = int(input("Enter your age:"))
+    while age < 0:
+        print(f"you are (age) years old")
+
+        food = input("enter a food you like")
+
+        while food == "q":
+            print(f"You like (food)")
+            food = input ("enter your name")
+
+            num = input("enter a number between 1 - 10")
+            while our (num)< 1 or num > 10:
+print(f"(num)"is not valid)
+print("your number is (num)")
+#wildloops
